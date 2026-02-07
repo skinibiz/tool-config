@@ -1,0 +1,13 @@
+[user]
+email = profile2@email.com
+# email used while setting up the git profile
+name = Firstname lastname 
+# Your first and last name
+
+[github]
+user = "profile2"
+# git handle used while setting up the git profile
+
+[core]
+sshCommand = ssh -i ~/.ssh/profile2
+# ssh private key setup and installed on github.com to sign your commits and using ssh for connecting to the remote repo.

@@ -1,0 +1,14 @@
+
+[user]
+email = profile1@email.com
+#git email account used for profile1
+name = firstname.lastname
+#The name you want to appear
+
+[github]
+user = profile1 
+#git handle used for profile1
+
+[core]
+sshCommand = ssh -i ~/.ssh/ssh_key_for_profile1
+# ssh key for the profile1 that allows you to sign commits. 

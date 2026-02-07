@@ -1,0 +1,16 @@
+# This is a base git configuration where you can setup the different profiles. This allows you to work with different git accounts
+
+[includeIf "gitdir:~/Developer/profile1/"]
+path = ~/Developer/profile1/.gitconfig.profile1
+
+[includeIf "gitdir:~/Developer/profile2/"]
+path = ~/Developer/profile2/.gitconfig.profile2
+
+[core]
+excludesfile = ~/.gitignore
+
+# You should also have a file with .gitconfig.profile1 and .gitconfig.profile2 at the path location
+#
+# To create a secure connection to git use [github ssh setup](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+#
+# To sign your commits use the setup steps in [github signed commit setup](https://docs.github.com/en/authentication/managing-commit-signature-verification)
